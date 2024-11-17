@@ -8,7 +8,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "vitest ./app/**/*.{test,spec}.ts"
+    "test": "vitest ./app/**/*.{test,spec}.ts",
+    "test:e2e": "vitest ./e2e/*.{test,spec}.ts"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.6.0",
